@@ -1,0 +1,121 @@
+\makeatletter
+
+
+\def\pgfpathgrid{\pgfutil@ifnextchar[{\pgf@pathgrid}{\pgf@pathgrid[]}}
+\def\pgf@pathgrid[#1]#2#3{%
+  \pgfset{#1}%
+  \pgfmathsetlength\pgf@xc{\pgfkeysvalueof{/pgf/stepx}}%
+  \pgfmathsetlength\pgf@yc{\pgfkeysvalueof{/pgf/stepy}}%
+  \pgf@process{#3}%
+  \pgf@xb=\pgf@x%
+  \pgf@yb=\pgf@y%
+  \pgf@process{#2}%
+  \pgf@xa=\pgf@x\relax%
+  \pgf@ya=\pgf@y\relax%
+  {%
+    % compute bounding box
+    % first corner
+    \pgf@x=\pgf@xb%
+    \pgf@y=\pgf@yb%
+    \pgf@pos@transform{\pgf@x}{\pgf@y}%
+    \pgf@protocolsizes{\pgf@x}{\pgf@y}%
+    % second corner
+    \pgf@x=\pgf@xb%
+    \pgf@y=\pgf@ya%
+    \pgf@pos@transform{\pgf@x}{\pgf@y}%
+    \pgf@protocolsizes{\pgf@x}{\pgf@y}%
+    % third corner
+    \pgf@x=\pgf@xa%
+    \pgf@y=\pgf@yb%
+    \pgf@pos@transform{\pgf@x}{\pgf@y}%
+    \pgf@protocolsizes{\pgf@x}{\pgf@y}%
+    % fourth corner
+    \pgf@x=\pgf@xa%
+    \pgf@y=\pgf@ya%
+    \pgf@pos@transform{\pgf@x}{\pgf@y}%
+    \pgf@protocolsizes{\pgf@x}{\pgf@y}%
+  }%
+  \c@pgf@counta=\pgf@y\relax% Truncate the start y coordinate to integer
+  \c@pgf@countb=\pgf@yc\relax% Truncate the step size to integer
+  \divide\c@pgf@counta by\c@pgf@countb\relax% Truncate the ratio
+  \pgf@y=\c@pgf@counta\pgf@yc\relax% % Find the closest integer-multiple of step size to the start
+    \ifdim\pgf@ya>\pgf@yb% If the start point is larger than finish 
+        \c@pgf@counta=-1\relax
+    \else % If everything is fine
+        \c@pgf@counta=1\relax
+    \fi
+  \ifdim\the\c@pgf@counta\pgf@y<\the\c@pgf@counta\pgf@ya% If for some reason it goes too far
+    \advance\pgf@y by\the\c@pgf@counta\pgf@yc% take back one step size
+  \fi%
+  \loop% horizontal lines
+    {%
+      \pgf@xa=\pgf@x%
+      \pgf@ya=\pgf@y%
+      \pgf@pos@transform{\pgf@xa}{\pgf@ya}
+      \pgfsyssoftpath@moveto{\the\pgf@xa}{\the\pgf@ya}%
+      \pgf@xa=\pgf@xb%
+      \pgf@ya=\pgf@y%
+      \pgf@pos@transform{\pgf@xa}{\pgf@ya}
+      \pgfsyssoftpath@lineto{\the\pgf@xa}{\the\pgf@ya}%
+    }%
+    \advance\pgf@y by\the\c@pgf@counta\pgf@yc% Increment in the - or + direction
+  \ifdim\the\c@pgf@counta\pgf@y<\the\c@pgf@counta\pgf@yb% Also compare with the correct sign.
+  \repeat%
+  \advance\pgf@y by 0.01\dimexpr0pt-(1pt)*\c@pgf@counta\relax%
+  \ifdim\the\c@pgf@counta\pgf@y<\the\c@pgf@counta\pgf@yb
+    {%
+      \pgf@xa=\pgf@x%
+      \pgf@ya=\pgf@y%
+      \pgf@pos@transform{\pgf@xa}{\pgf@ya}
+      \pgfsyssoftpath@moveto{\the\pgf@xa}{\the\pgf@ya}%
+      \pgf@xa=\pgf@xb%
+      \pgf@ya=\pgf@y%
+      \pgf@pos@transform{\pgf@xa}{\pgf@ya}
+      \pgfsyssoftpath@lineto{\the\pgf@xa}{\the\pgf@ya}%
+    }%
+  \fi%
+  \c@pgf@counta=\pgf@x\relax%
+  \c@pgf@countb=\pgf@xc\relax%
+  \divide\c@pgf@counta by\c@pgf@countb\relax%
+  \pgf@x=\c@pgf@counta\pgf@xc\relax%
+    \ifdim\pgf@xa>\pgf@xb% If the start point is larger than finish 
+      \c@pgf@counta=-1\relax
+    \else % If everything is fine
+      \c@pgf@counta=1\relax
+    \fi
+  \ifdim\the\c@pgf@counta\pgf@x<\the\c@pgf@counta\pgf@xa%
+    \advance\pgf@x by\the\c@pgf@counta\pgf@xc%
+  \fi%
+  \loop% vertical lines
+    {%
+      \pgf@xc=\pgf@x%
+      \pgf@yc=\pgf@ya%
+      \pgf@pos@transform{\pgf@xc}{\pgf@yc}
+      \pgfsyssoftpath@moveto{\the\pgf@xc}{\the\pgf@yc}%
+      \pgf@xc=\pgf@x%
+      \pgf@yc=\pgf@yb%
+      \pgf@pos@transform{\pgf@xc}{\pgf@yc}
+      \pgfsyssoftpath@lineto{\the\pgf@xc}{\the\pgf@yc}%
+    }%
+    \advance\pgf@x by\the\c@pgf@counta\pgf@xc% Increment in the - or + direction
+  \ifdim\the\c@pgf@counta\pgf@x<\the\c@pgf@counta\pgf@xb% Also compare with the correct sign.
+  \repeat%
+  \advance\pgf@x by 0.01\dimexpr0pt-(1pt)*\c@pgf@counta\relax%
+  \ifdim\the\c@pgf@counta\pgf@x<\the\c@pgf@counta\pgf@xb%
+    {%
+      \pgf@xc=\pgf@x%
+      \pgf@yc=\pgf@ya%
+      \pgf@pos@transform{\pgf@xc}{\pgf@yc}
+      \pgfsyssoftpath@moveto{\the\pgf@xc}{\the\pgf@yc}%
+      \pgf@xc=\pgf@x%
+      \pgf@yc=\pgf@yb%
+      \pgf@pos@transform{\pgf@xc}{\pgf@yc}
+      \pgfsyssoftpath@lineto{\the\pgf@xc}{\the\pgf@yc}%
+    }%
+  \fi%
+}
+
+
+\makeatother
+
+\newcommand{\arrow}[2]{\draw[->,blue,thick,shorten <=5mm, shorten >=5mm] #1 -- #2 ;}
