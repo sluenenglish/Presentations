@@ -15,7 +15,7 @@
    viewBox="0 0 1090.2202 364.67334"
    width="1090.2202pt"
    id="svg2"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="to_decision.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -26,19 +26,19 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1362"
-     inkscape:window-height="723"
+     inkscape:window-width="1855"
+     inkscape:window-height="1056"
      id="namedview542"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="7.2227069"
-     inkscape:cx="462.95613"
-     inkscape:cy="-8.4346535"
-     inkscape:window-x="4"
-     inkscape:window-y="1"
+     inkscape:zoom="0.90283836"
+     inkscape:cx="588.62779"
+     inkscape:cy="214.43836"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
   <metadata
@@ -91,18 +91,42 @@
      d="m 626.8146,162.33666 80,0 0,-40 80,60 -80,60 0,-40 -80,0 z"
      style="fill:#db322f;fill-opacity:0.68627453;fill-rule:evenodd;stroke:#586e75;stroke-width:1.36000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:100;stroke-dasharray:none;stroke-opacity:1"
      id="path4702" />
-  <text
-     sodipodi:linespacing="125%"
-     id="text4481"
-     y="202.49594"
-     x="800.53015"
-     style="font-style:normal;font-weight:normal;font-size:56.32494354px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#586e75;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:100000;stroke-opacity:1"
-     xml:space="preserve"><tspan
-       y="202.49594"
-       x="800.53015"
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:100000"
-       id="tspan4483"
-       sodipodi:role="line">DECISION</tspan></text>
+  <g
+     style="font-size:56.32494354px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#586e75;fill-opacity:1;stroke:none;font-family:sans-serif"
+     id="text4481">
+    <path
+       d="m 805.20512,202.49594 10.19482,0 c 10.92702,0 17.57338,-6.36473 17.57338,-18.58723 0,-12.16618 -6.64636,-18.24928 -17.91133,-18.24928 l -9.85687,0 0,36.83651 m 6.5337,-5.29454 0,-26.24743 2.87257,0 c 7.43488,0 11.65926,3.94276 11.65926,12.95474 0,9.06831 -4.22438,13.29269 -11.65926,13.29269 l -2.87257,0"
+       style="font-variant:normal;font-weight:600;font-stretch:normal;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Semi-Bold"
+       id="path3306" />
+    <path
+       d="m 840.40821,202.49594 22.75528,0 0,-5.51984 -16.22158,0 0,-10.87072 13.23636,0 0,-5.51984 -13.23636,0 0,-9.40627 15.65833,0 0,-5.51984 -22.19203,0 0,36.83651"
+       style="font-variant:normal;font-weight:600;font-stretch:normal;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Semi-Bold"
+       id="path3308" />
+    <path
+       d="m 885.36168,203.17184 c 4.73129,0 8.61772,-1.91505 11.60294,-5.35087 l -3.49215,-4.11172 c -2.08402,2.253 -4.61865,3.77377 -7.88549,3.77377 -6.19574,0 -10.13849,-5.06925 -10.13849,-13.46166 0,-8.27976 4.2807,-13.34901 10.30747,-13.34901 2.87257,0 5.06924,1.29547 6.98429,3.21052 l 3.49215,-4.22437 c -2.30932,-2.4783 -6.02678,-4.67497 -10.64542,-4.67497 -9.29361,0 -16.84116,7.15328 -16.84116,19.2068 0,12.22251 7.32226,18.98151 16.61586,18.98151"
+       style="font-variant:normal;font-weight:600;font-stretch:normal;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Semi-Bold"
+       id="path3310" />
+    <path
+       d="m 903.11371,202.49594 6.5337,0 0,-36.83651 -6.5337,0 0,36.83651"
+       style="font-variant:normal;font-weight:600;font-stretch:normal;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Semi-Bold"
+       id="path3312" />
+    <path
+       d="m 929.71317,203.17184 c 8.27976,0 13.23636,-4.9566 13.23636,-10.92704 0,-5.35086 -3.09787,-8.11079 -7.43489,-9.96951 l -5.01292,-2.08403 c -3.04154,-1.23914 -5.85779,-2.30932 -5.85779,-5.18189 0,-2.7036 2.30932,-4.33702 5.80146,-4.33702 3.1542,0 5.6325,1.18282 7.99815,3.15419 l 3.32317,-4.16804 c -2.87257,-2.87257 -7.04062,-4.67497 -11.32132,-4.67497 -7.20958,0 -12.39148,4.506 -12.39148,10.36379 0,5.40719 3.8301,8.27977 7.43489,9.80054 l 5.06924,2.19667 c 3.32317,1.40812 5.68882,2.36565 5.68882,5.4072 0,2.87257 -2.253,4.73129 -6.42104,4.73129 -3.37949,0 -6.92797,-1.68975 -9.57524,-4.16804 l -3.8301,4.44967 c 3.49215,3.43581 8.3361,5.40719 13.29269,5.40719"
+       style="font-variant:normal;font-weight:600;font-stretch:normal;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Semi-Bold"
+       id="path3314" />
+    <path
+       d="m 949.64779,202.49594 6.5337,0 0,-36.83651 -6.5337,0 0,36.83651"
+       style="font-variant:normal;font-weight:600;font-stretch:normal;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Semi-Bold"
+       id="path3316" />
+    <path
+       d="m 979.79573,203.17184 c 9.63156,0 16.27791,-7.32225 16.27791,-19.26313 0,-11.88455 -6.64635,-18.92518 -16.27791,-18.92518 -9.57523,0 -16.22158,7.04063 -16.22158,18.92518 0,11.94088 6.64635,19.26313 16.22158,19.26313 m 0,-5.68882 c -5.80146,0 -9.51892,-5.29455 -9.51892,-13.57431 0,-8.22343 3.71746,-13.23636 9.51892,-13.23636 5.80146,0 9.51892,5.01293 9.51892,13.23636 0,8.27976 -3.71746,13.57431 -9.51892,13.57431"
+       style="font-variant:normal;font-weight:600;font-stretch:normal;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Semi-Bold"
+       id="path3318" />
+    <path
+       d="m 1003.4425,202.49594 6.2521,0 0,-16.10893 c 0,-4.11172 -0.5633,-8.5614 -0.8449,-12.44782 l 0.2253,0 3.7738,7.82917 11.4903,20.72758 6.7026,0 0,-36.83651 -6.252,0 0,15.99628 c 0,4.11172 0.5632,8.7867 0.8448,12.56046 l -0.2253,0 -3.7737,-7.82916 -11.4903,-20.72758 -6.7027,0 0,36.83651"
+       style="font-variant:normal;font-weight:600;font-stretch:normal;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Semi-Bold"
+       id="path3320" />
+  </g>
   <g
      transform="matrix(0.53088118,0,0,0.53088118,14.4,0.80951439)"
      style="stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:100000"

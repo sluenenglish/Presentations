@@ -864,50 +864,18 @@
          style="stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:100000" />
     </clipPath>
   </defs>
-  <g
+  <text
+     xml:space="preserve"
      style="font-size:66.8730011px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#586e75;fill-opacity:1;stroke:none;font-family:sans-serif"
-     id="text3799">
-    <path
-       d="m 386.36486,415.37053 c 9.83032,0 15.71515,-5.88483 15.71515,-12.97336 0,-6.35293 -3.67802,-9.62972 -8.82723,-11.83652 l -5.9517,-2.4743 c -3.61114,-1.47121 -6.95479,-2.7418 -6.95479,-6.15232 0,-3.2099 2.7418,-5.14922 6.88792,-5.14922 3.74488,0 6.6873,1.40433 9.49596,3.74489 l 3.94551,-4.94861 c -3.41052,-3.41052 -8.35913,-5.55045 -13.44147,-5.55045 -8.55974,0 -14.71206,5.34984 -14.71206,12.30463 0,6.4198 4.54737,9.83033 8.82723,11.6359 l 6.01857,2.60805 c 3.94551,1.67182 6.75418,2.80867 6.75418,6.41981 0,3.41051 -2.67493,5.61733 -7.62353,5.61733 -4.01237,0 -8.22538,-2.0062 -11.36841,-4.9486 l -4.54736,5.28296 c 4.14612,4.07925 9.89721,6.41981 15.78203,6.41981"
-       style="font-variant:normal;font-weight:600;font-stretch:normal;fill:#586e75;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Semi-Bold"
-       id="path5338" />
-    <path
-       d="m 410.03267,414.56805 7.75727,0 0,-43.73494 -7.75727,0 0,43.73494"
-       style="font-variant:normal;font-weight:600;font-stretch:normal;fill:#586e75;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Semi-Bold"
-       id="path5340" />
-    <path
-       d="m 428.8407,414.56805 7.02167,0 0,-19.99502 c 0,-4.07925 -0.66873,-9.89721 -1.0031,-13.90959 l 0.2675,0 3.47739,10.1647 7.22229,19.66066 4.61423,0 7.15541,-19.66066 3.54427,-10.1647 0.2675,0 c -0.40124,4.01238 -1.0031,9.83034 -1.0031,13.90959 l 0,19.99502 7.15541,0 0,-43.73494 -8.82723,0 -7.55665,21.39936 c -0.93622,2.74179 -1.80558,5.68421 -2.7418,8.55975 l -0.26749,0 c -0.93622,-2.87554 -1.87244,-5.81796 -2.80866,-8.55975 l -7.75727,-21.39936 -8.76037,0 0,43.73494"
-       style="font-variant:normal;font-weight:600;font-stretch:normal;fill:#586e75;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Semi-Bold"
-       id="path5342" />
-    <path
-       d="m 494.98751,415.37053 c 10.16468,0 16.51763,-5.61735 16.51763,-19.99503 l 0,-24.54239 -7.42291,0 0,25.14425 c 0,9.49596 -3.74489,12.639 -9.09472,12.639 -5.28297,0 -8.82724,-3.14304 -8.82724,-12.639 l 0,-25.14425 -7.75727,0 0,24.54239 c 0,14.37768 6.48669,19.99503 16.58451,19.99503"
-       style="font-variant:normal;font-weight:600;font-stretch:normal;fill:#586e75;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Semi-Bold"
-       id="path5344" />
-    <path
-       d="m 522.35841,414.56805 25.94673,0 0,-6.55355 -18.18946,0 0,-37.18139 -7.75727,0 0,43.73494"
-       style="font-variant:normal;font-weight:600;font-stretch:normal;fill:#586e75;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Semi-Bold"
-       id="path5346" />
-    <path
-       d="m 564.88652,391.29625 c 1.40433,-4.61423 2.67492,-9.56284 3.87863,-14.44457 l 0.26749,0 c 1.27059,4.81485 2.54118,9.83034 3.94551,14.44457 l 1.53808,5.34984 -11.16779,0 1.53808,-5.34984 m -14.64519,23.2718 7.89101,0 3.41053,-11.83652 14.71206,0 3.41052,11.83652 8.15851,0 -14.24395,-43.73494 -9.09473,0 -14.24395,43.73494"
-       style="font-variant:normal;font-weight:600;font-stretch:normal;fill:#586e75;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Semi-Bold"
-       id="path5348" />
-    <path
-       d="m 597.79743,414.56805 7.75727,0 0,-37.18138 12.639,0 0,-6.55356 -33.03526,0 0,6.55356 12.63899,0 0,37.18138"
-       style="font-variant:normal;font-weight:600;font-stretch:normal;fill:#586e75;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Semi-Bold"
-       id="path5350" />
-    <path
-       d="m 625.54136,414.56805 7.75727,0 0,-43.73494 -7.75727,0 0,43.73494"
-       style="font-variant:normal;font-weight:600;font-stretch:normal;fill:#586e75;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Semi-Bold"
-       id="path5352" />
-    <path
-       d="m 661.33515,415.37053 c 11.43527,0 19.3263,-8.6935 19.3263,-22.87057 0,-14.11019 -7.89103,-22.46932 -19.3263,-22.46932 -11.3684,0 -19.25942,8.35913 -19.25942,22.46932 0,14.17707 7.89102,22.87057 19.25942,22.87057 m 0,-6.75417 c -6.88791,0 -11.30154,-6.28607 -11.30154,-16.1164 0,-9.76344 4.41363,-15.71515 11.30154,-15.71515 6.88791,0 11.30154,5.95171 11.30154,15.71515 0,9.83033 -4.41363,16.1164 -11.30154,16.1164"
-       style="font-variant:normal;font-weight:600;font-stretch:normal;fill:#586e75;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Semi-Bold"
-       id="path5354" />
-    <path
-       d="m 689.41029,414.56805 7.4229,0 0,-19.12567 c 0,-4.88173 -0.66873,-10.1647 -1.00309,-14.77894 l 0.26749,0 4.48049,9.29535 13.6421,24.60926 7.95788,0 0,-43.73494 -7.4229,0 0,18.99193 c 0,4.88173 0.66873,10.4322 1.00309,14.91268 l -0.26749,0 -4.48049,-9.29534 -13.64209,-24.60927 -7.95789,0 0,43.73494"
-       style="font-variant:normal;font-weight:600;font-stretch:normal;fill:#586e75;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Semi-Bold"
-       id="path5356" />
-  </g>
+     x="368.04166"
+     y="414.56805"
+     id="text3799"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3801"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;fill:#586e75;fill-opacity:1;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Semi-Bold"
+       x="368.04166"
+       y="414.56805">SIMULATION</tspan></text>
   <g
      id="figure_1"
      transform="matrix(0.27223176,0,0,0.27223177,3.1245322,31.965489)"
