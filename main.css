@@ -170,6 +170,8 @@ a:visited { color: #205caa; }
 
 .posts li { margin-bottom: 30px; }
 
+.urls li { margin-bottom: 0px; }
+
 .posts .post-link {
   font-size: 24px;
   letter-spacing: -1px;
